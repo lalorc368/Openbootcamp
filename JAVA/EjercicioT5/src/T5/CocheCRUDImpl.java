@@ -1,5 +1,6 @@
 package T5;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CocheCRUDImpl implements CocheCRUD{
@@ -15,9 +16,10 @@ public class CocheCRUDImpl implements CocheCRUD{
         this.model = model;
         this.year = year;
     }
-
+    List<CocheCRUDImpl> coches = new ArrayList<>();
     @Override
     public void save(CocheCRUDImpl coches) {
+
 
     }
     @Override

@@ -6,6 +6,7 @@ public interface CocheCRUD {
 
     void save(CocheCRUDImpl coches);
 
+
     List<CocheCRUDImpl> findAll();
 
     void delete(CocheCRUDImpl coches);
